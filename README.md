@@ -17,4 +17,11 @@ Usage:
     -Two roles are here mainly. One role is 'admin' and another one is 'user'. You will get a column in 'users' table named 'role' which mainly stores this input while a new user is added by an admin from frontend.
     -Whose role is 'admin' can add new user, view all users list, edit any user info, delete a user too
     -Whose role is 'user' can only view his/her own user info, edit and delete his/her own user info
-    -Input validation added where applicable
+
+Things that have been implemented/ followed:
+    -Session
+    -Input validation (Server side and frontend)
+    -PHP's PDO (PHP Data Objects) for interacting with the database
+    -Pagination for users list, set 3 rows per page for test basis
+    -password hashing for user passwords to enhance security
+    -Code to prevent security vulnerabilities such as SQL injection and XSS attacks
