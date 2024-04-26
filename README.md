@@ -10,7 +10,7 @@ Steps:
     4. Import the user_management.sql file to create the necessary table
     5. Open config.php and update the database connection details
     6. Start the Web Server
-    7. Open the web browser and navigate to http://localhost/user-management-system
+    7. Open the web browser and navigate to the project
 
 Usage:
     -Two demo users are already in user_management.sql, one's role is 'admin', another one's role is 'user'. You can login with the user whose role is 'admin' for the first time, password is '123456'
